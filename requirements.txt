@@ -1,0 +1,8 @@
+# Planned analysis packages. Record tested versions for the final submission.
+numpy
+pandas
+yfinance
+statsmodels
+arch
+scipy
+matplotlib

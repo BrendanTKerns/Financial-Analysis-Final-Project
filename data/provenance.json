@@ -1,0 +1,28 @@
+{
+  "source": "Yahoo Finance adjusted Close, downloaded via course fda_utils.py / yfinance",
+  "snapshot_origin": "Proposal work on 2026-11-11; rerun with --refresh to replace source files",
+  "source_start": "2015-12-01",
+  "analysis_start": "2016-01-01",
+  "cutoff_exclusive": "2026-11-01",
+  "first_observation": "2016-01-04",
+  "last_observation": "2026-10-30",
+  "daily_observations": 2723,
+  "monthly_observations": 130,
+  "missing_values": 0,
+  "trading_dates": "Identical across five stocks; exchange-holiday completeness not independently audited",
+  "source_sha256": {
+    "MSFT_2015-12-01_2026-11-01_Close.csv": "9241073f7aca6eb538432b98d8cd1aa7b2849c7a302d172423eb177ec65d36f0",
+    "JPM_2015-12-01_2026-11-01_Close.csv": "74a637c785d6017b17dd5e6db2d8aa57d809e08e5734b694533532b086270c46",
+    "XOM_2015-12-01_2026-11-01_Close.csv": "9ba85c5e4a3704b7ee4c750f894af554a4783da7b3c18760b1e7cc6cc34d49e8",
+    "COST_2015-12-01_2026-11-01_Close.csv": "159ea2f32a0a8715ad0f94304b4931952af739432a7a878cfe0d196780fc1a74",
+    "JNJ_2015-12-01_2026-11-01_Close.csv": "0b0978fbe510d4b98c4189f4346c4094438550280be931fb19e2b250e70b4aca"
+  },
+  "sectors": {
+    "MSFT": "Information Technology",
+    "JPM": "Financials",
+    "XOM": "Energy",
+    "COST": "Consumer Staples",
+    "JNJ": "Health Care"
+  },
+  "return_convention": "Part 1 uses 100 * log(P[t]/P[t-1]); monthly simple returns saved for Parts 2/3"
+}

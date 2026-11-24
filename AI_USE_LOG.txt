@@ -1,0 +1,12 @@
+2026-11-24 - Part 1 implementation
+
+Request: Implement Part 1 code and analysis with explanations of each step.
+AI assistance: inspected the assignment, prepared Python data and analysis
+scripts, ran ADF/KPSS and GARCH models, built figures, and drafted a teaching
+notebook and report from the calculated output tables.
+Inputs: original Yahoo Finance adjusted-price CSVs saved in the November 11
+proposal work; supplied BUS 493 course helper; project instructions page 2.
+Verification: input checks, formula checks against saved tables, model
+convergence checks, offline reruns, and visual review of generated figures.
+Student verification: Brendan and Chi should record their own review and
+any corrections here. This entry documents AI assistance, not student review.
